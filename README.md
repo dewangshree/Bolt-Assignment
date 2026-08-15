@@ -165,7 +165,7 @@ npm run dev
 | POST   | `/api/auth/login`       | Validate OTP, return user info      |
 | POST   | `/api/checkout`         | Save checkout submission to DB      |
 
-Full interactive docs: http://localhost:8000/docs
+
 
 ---
 
