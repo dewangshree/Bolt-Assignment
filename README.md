@@ -1,6 +1,30 @@
 # BoltPay — OTP-Based User Recognition & Checkout
 
-A full-stack application demonstrating OTP-based user recognition during checkout. Users register once, receive a 6-digit login code, and are automatically recognised at checkout for a frictionless experience.
+A full-stack, passwordless checkout application. Users register once with their name and email, receive a 6-digit login code, and are automatically recognised by email at checkout — no passwords, ever.
+
+---
+
+## Requirements Coverage
+
+| # | Requirement | Status |
+|---|-------------|--------|
+| 1 | Registration page (first name, last name, email) → saved to DB, triggers OTP flow | ✅ |
+| 2 | 6-digit OTP generation, OTP input UI, backend verification, no passwords | ✅ |
+| 3 | Checkout page with automatic returning-user recognition by email, order saved to DB, no real payment | ✅ |
+| 4 | React + TypeScript + Vite, dark purple/blue fintech UI, responsive, loading/success/error states | ✅ |
+| 5 | FastAPI REST API (register, OTP verify, recognize, checkout, health), CORS configured | ✅ |
+| 6 | PostgreSQL + SQLAlchemy, `database/schema.sql` checked in, DB credentials via env vars | ✅ |
+| 7 | Modular project structure (`backend/app/{api,database,models,schemas}`, `frontend/src/{components,hooks,pages,services}`) | ✅ |
+| 8 | No hardcoded secrets; `.env.example` for both frontend and backend; `VITE_API_URL` used | ✅ |
+| 9 | Swagger/OpenAPI docs auto-generated at `/docs`; `GET /api/health` present | ✅ |
+| 10 | Deployable to Vercel (frontend) / Render (backend) / Supabase (Postgres) | ✅ Instructions below — **confirm your own live URLs are deployed and reachable before submitting** |
+| 11 | No real payment, no exposed secrets, functional end-to-end, clear README | ✅ |
+
+**Not yet done for you — action items before submission:**
+- [ ] Actually deploy: push to GitHub, deploy `frontend/` to Vercel and `backend/` to Render, and confirm the live URL loads and works end-to-end.
+- [ ] Grant the `boltapp-hiring` GitHub user access to the repository.
+- [ ] Double check `frontend/.env` (Vercel) points at your real Render backend URL, and `backend/.env` (Render) `FRONTEND_URL` points at your real Vercel URL — otherwise CORS will block requests in production.
+- [ ] Remove the unused `GROQ_API_KEY` setting from `backend/app/config.py` / `.env.example` if you don't end up using it, to keep the codebase clean.
 
 ---
 
