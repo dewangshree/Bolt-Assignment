@@ -123,21 +123,6 @@ cp .env.example .env
 # Edit .env and fill in your DATABASE_URL
 ```
 
-**.env** (backend):
-```
-DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@db.YOUR_REF.supabase.co:5432/postgres
-GROQ_API_KEY=          # optional
-FRONTEND_URL=http://localhost:5173
-```
-
-```bash
-# Run the backend
-uvicorn app.main:app --reload --port 8000
-```
-
-API docs available at: http://localhost:8000/docs
-
----
 
 ### 3 — Frontend Setup
 
