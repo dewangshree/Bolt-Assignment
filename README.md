@@ -2,7 +2,12 @@
 
 A full-stack, passwordless checkout application. Users register once with their name and email, receive a 6-digit login code, and are automatically recognised by email at checkout — no passwords, ever.
 
----
+**Live Deployed Application:**
+[BoltPay — Live Demo](https://bolt-assignment-pavrgil3z-shreyas-projects-ff372eaf.vercel.app/?utm_source=chatgpt.com)
+
+**Backend API:**
+[BoltPay — Backend API](https://bolt-assignment-1.onrender.com?utm_source=chatgpt.com)
+
 
 ## Requirements Coverage
 
