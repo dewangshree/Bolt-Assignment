@@ -164,8 +164,7 @@ App available at: http://localhost:5173
 
 | Variable       | Description                              | Required |
 |----------------|------------------------------------------|----------|
-| `DATABASE_URL` | Supabase PostgreSQL connection string    | ✅       |
-| `GROQ_API_KEY` | Groq API key (optional LLM features)     | ❌       |
+| `DATABASE_URL` | Supabase PostgreSQL connection string    | ✅       |    
 | `FRONTEND_URL` | Allowed frontend CORS origin             | ✅       |
 
 ### Frontend (`frontend/.env`)
