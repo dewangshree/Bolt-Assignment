@@ -5,8 +5,6 @@ A full-stack, passwordless checkout application. Users register once with their 
 **Live Deployed Application:**
 [BoltPay — Live Demo](https://bolt-assignment-pavrgil3z-shreyas-projects-ff372eaf.vercel.app/?utm_source=chatgpt.com)
 
-**Backend API:**
-[BoltPay — Backend API](https://bolt-assignment-1.onrender.com?utm_source=chatgpt.com)
 
 
 ## Requirements Coverage
@@ -159,9 +157,6 @@ cp .env.example .env
 npm run dev
 ```
 
-App available at: http://localhost:5173
-
----
 
 ## Environment Variables
 
@@ -172,11 +167,6 @@ App available at: http://localhost:5173
 | `DATABASE_URL` | Supabase PostgreSQL connection string    | ✅       |    
 | `FRONTEND_URL` | Allowed frontend CORS origin             | ✅       |
 
-### Frontend (`frontend/.env`)
-
-| Variable        | Description                   | Default                     |
-|-----------------|-------------------------------|-----------------------------|
-| `VITE_API_URL`  | Backend API base URL          | `http://localhost:8000`     |
 
 ---
 
