@@ -20,11 +20,6 @@ A full-stack, passwordless checkout application. Users register once with their 
 | 10 | Deployable to Vercel (frontend) / Render (backend) / Supabase (Postgres) | ✅ Instructions below — **confirm your own live URLs are deployed and reachable before submitting** |
 | 11 | No real payment, no exposed secrets, functional end-to-end, clear README | ✅ |
 
-**Not yet done for you — action items before submission:**
-- [ ] Actually deploy: push to GitHub, deploy `frontend/` to Vercel and `backend/` to Render, and confirm the live URL loads and works end-to-end.
-- [ ] Grant the `boltapp-hiring` GitHub user access to the repository.
-- [ ] Double check `frontend/.env` (Vercel) points at your real Render backend URL, and `backend/.env` (Render) `FRONTEND_URL` points at your real Vercel URL — otherwise CORS will block requests in production.
-- [ ] Remove the unused `GROQ_API_KEY` setting from `backend/app/config.py` / `.env.example` if you don't end up using it, to keep the codebase clean.
 
 ---
 
