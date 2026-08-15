@@ -17,7 +17,7 @@ app.add_middleware(
     allow_origins=[
         settings.FRONTEND_URL,
         "https://bolt-assignment-bay.vercel.app",
-        "https://bolt-assignment-jsmgg27jn-shreyas-projects-ff372eaf.vercel.app",
+        "https://bolt-assignment-pavrgil3z-shreyas-projects-ff372eaf.vercel.app",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
     ],
